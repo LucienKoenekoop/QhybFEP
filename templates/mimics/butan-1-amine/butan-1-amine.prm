@@ -1,0 +1,120 @@
+# Generated with q_ffld2q.py, version 0.7.1
+# Date: Tue Mar  1 11:06:02 2022
+#
+[options]
+
+
+[atom_types]
+b1a.C1          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
+b1a.C2          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
+b1a.C3          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
+b1a.C4          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_291 C in C[N+]
+b1a.H11         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H12         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H13         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H21         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H22         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H31         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H32         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H41         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H42         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+b1a.H51          0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H attached to N+
+b1a.H52          0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H attached to N+
+b1a.H53          0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H attached to N+
+b1a.N5         971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: NP_N1_287 N [NH3+]R
+
+[bonds]
+b1a.C1       b1a.C2            536.0      1.529 # FFLD: high 0 => 0 CT-CT ==> CT-CT
+b1a.C1       b1a.H11           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C1       b1a.H12           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C1       b1a.H13           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C2       b1a.C3            536.0      1.529 # FFLD: high 0 => 0 CT-CT ==> CT-CT
+b1a.C2       b1a.H21           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C2       b1a.H22           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C3       b1a.C4            536.0      1.529 # FFLD: high 0 => 0 CT-CT ==> CT-CT
+b1a.C3       b1a.H31           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C3       b1a.H32           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C4       b1a.H41           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C4       b1a.H42           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+b1a.C4       b1a.N5            734.0      1.471 # FFLD: high 0 => 0 CT-NP ==> NP-CT
+b1a.H51      b1a.N5            868.0       1.01 # FFLD: high 0 => 0 NP-H ==> NP-H
+b1a.H52      b1a.N5            868.0       1.01 # FFLD: high 0 => 0 NP-H ==> NP-H
+b1a.H53      b1a.N5            868.0       1.01 # FFLD: high 0 => 0 NP-H ==> NP-H
+
+[angles]
+b1a.C1       b1a.C2       b1a.C3            116.7      112.7 # FFLD: high 0 CT-CT-CT ==> CT-CT-CT
+b1a.C1       b1a.C2       b1a.H21            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+b1a.C1       b1a.C2       b1a.H22            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+b1a.C2       b1a.C1       b1a.H11            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+b1a.C2       b1a.C1       b1a.H12            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+b1a.C2       b1a.C1       b1a.H13            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+b1a.C2       b1a.C3       b1a.C4            116.7      112.7 # FFLD: high 0 CT-CT-CT ==> CT-CT-CT
+b1a.C2       b1a.C3       b1a.H31            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+b1a.C2       b1a.C3       b1a.H32            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+b1a.C3       b1a.C2       b1a.H21            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+b1a.C3       b1a.C2       b1a.H22            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+b1a.C3       b1a.C4       b1a.H41            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+b1a.C3       b1a.C4       b1a.H42            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+b1a.C3       b1a.C4       b1a.N5            160.0      111.2 # FFLD: high 0 CT-CT-NP ==> NP-CT-CT
+b1a.C4       b1a.C3       b1a.H31            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+b1a.C4       b1a.C3       b1a.H32            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+b1a.C4       b1a.N5       b1a.H51            70.0      109.5 # FFLD: high 0 CT-NP-H ==> H-NP-CT
+b1a.C4       b1a.N5       b1a.H52            70.0      109.5 # FFLD: high 0 CT-NP-H ==> H-NP-CT
+b1a.C4       b1a.N5       b1a.H53            70.0      109.5 # FFLD: high 0 CT-NP-H ==> H-NP-CT
+b1a.H11      b1a.C1       b1a.H12            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+b1a.H11      b1a.C1       b1a.H13            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+b1a.H12      b1a.C1       b1a.H13            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+b1a.H21      b1a.C2       b1a.H22            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+b1a.H31      b1a.C3       b1a.H32            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+b1a.H41      b1a.C4       b1a.H42            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+b1a.H41      b1a.C4       b1a.N5             70.0      109.5 # FFLD: high 0 HC-CT-NP ==> NP-CT-HC
+b1a.H42      b1a.C4       b1a.N5             70.0      109.5 # FFLD: high 0 HC-CT-NP ==> NP-CT-HC
+b1a.H51      b1a.N5       b1a.H52            70.0      109.5 # FFLD: high 0 H-NP-H ==> H-NP-H
+b1a.H51      b1a.N5       b1a.H53            70.0      109.5 # FFLD: high 0 H-NP-H ==> H-NP-H
+b1a.H52      b1a.N5       b1a.H53            70.0      109.5 # FFLD: high 0 H-NP-H ==> H-NP-H
+
+[torsions]
+b1a.C1       b1a.C2       b1a.C3       b1a.C4           0.5675   1.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-CT ==> CT-CT-CT-CT
+b1a.C1       b1a.C2       b1a.C3       b1a.C4          -0.0755   2.0      180.0   1.0 # FFLD: high 0 CT-CT-CT-CT ==> CT-CT-CT-CT
+b1a.C1       b1a.C2       b1a.C3       b1a.C4              0.2   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-CT ==> CT-CT-CT-CT
+b1a.C1       b1a.C2       b1a.C3       b1a.H31            0.15   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-HC ==> HC-CT-CT-CT
+b1a.C1       b1a.C2       b1a.C3       b1a.H32            0.15   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-HC ==> HC-CT-CT-CT
+b1a.C2       b1a.C3       b1a.C4       b1a.H41            0.15   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-HC ==> HC-CT-CT-CT
+b1a.C2       b1a.C3       b1a.C4       b1a.H42            0.15   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-HC ==> HC-CT-CT-CT
+b1a.C2       b1a.C3       b1a.C4       b1a.N5            1.366   1.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-NP ==> NP-CT-CT-CT
+b1a.C2       b1a.C3       b1a.C4       b1a.N5          -0.1145   2.0      180.0   1.0 # FFLD: high 0 CT-CT-CT-NP ==> NP-CT-CT-CT
+b1a.C2       b1a.C3       b1a.C4       b1a.N5           0.2425   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-NP ==> NP-CT-CT-CT
+b1a.C3       b1a.C2       b1a.C1       b1a.H11            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CT ==> HC-CT-CT-CT
+b1a.C3       b1a.C2       b1a.C1       b1a.H12            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CT ==> HC-CT-CT-CT
+b1a.C3       b1a.C2       b1a.C1       b1a.H13            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CT ==> HC-CT-CT-CT
+b1a.C3       b1a.C4       b1a.N5       b1a.H51          0.1735   3.0        0.0   1.0 # FFLD: high 0 CT-CT-NP-H ==> H-NP-CT-CT
+b1a.C3       b1a.C4       b1a.N5       b1a.H52          0.1735   3.0        0.0   1.0 # FFLD: high 0 CT-CT-NP-H ==> H-NP-CT-CT
+b1a.C3       b1a.C4       b1a.N5       b1a.H53          0.1735   3.0        0.0   1.0 # FFLD: high 0 CT-CT-NP-H ==> H-NP-CT-CT
+b1a.C4       b1a.C3       b1a.C2       b1a.H21            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CT ==> HC-CT-CT-CT
+b1a.C4       b1a.C3       b1a.C2       b1a.H22            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CT ==> HC-CT-CT-CT
+b1a.H11      b1a.C1       b1a.C2       b1a.H21            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H11      b1a.C1       b1a.C2       b1a.H22            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H12      b1a.C1       b1a.C2       b1a.H21            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H12      b1a.C1       b1a.C2       b1a.H22            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H13      b1a.C1       b1a.C2       b1a.H21            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H13      b1a.C1       b1a.C2       b1a.H22            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H21      b1a.C2       b1a.C3       b1a.H31            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H21      b1a.C2       b1a.C3       b1a.H32            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H22      b1a.C2       b1a.C3       b1a.H31            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H22      b1a.C2       b1a.C3       b1a.H32            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H31      b1a.C3       b1a.C4       b1a.H41            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H31      b1a.C3       b1a.C4       b1a.H42            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H31      b1a.C3       b1a.C4       b1a.N5            0.192   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-NP ==> NP-CT-CT-HC
+b1a.H32      b1a.C3       b1a.C4       b1a.H41            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H32      b1a.C3       b1a.C4       b1a.H42            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+b1a.H32      b1a.C3       b1a.C4       b1a.N5            0.192   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-NP ==> NP-CT-CT-HC
+b1a.H41      b1a.C4       b1a.N5       b1a.H51          0.1305   3.0        0.0   1.0 # FFLD: high 0 HC-CT-NP-H ==> H-NP-CT-HC
+b1a.H41      b1a.C4       b1a.N5       b1a.H52          0.1305   3.0        0.0   1.0 # FFLD: high 0 HC-CT-NP-H ==> H-NP-CT-HC
+b1a.H41      b1a.C4       b1a.N5       b1a.H53          0.1305   3.0        0.0   1.0 # FFLD: high 0 HC-CT-NP-H ==> H-NP-CT-HC
+b1a.H42      b1a.C4       b1a.N5       b1a.H51          0.1305   3.0        0.0   1.0 # FFLD: high 0 HC-CT-NP-H ==> H-NP-CT-HC
+b1a.H42      b1a.C4       b1a.N5       b1a.H52          0.1305   3.0        0.0   1.0 # FFLD: high 0 HC-CT-NP-H ==> H-NP-CT-HC
+b1a.H42      b1a.C4       b1a.N5       b1a.H53          0.1305   3.0        0.0   1.0 # FFLD: high 0 HC-CT-NP-H ==> H-NP-CT-HC
+
+[impropers]
+
+

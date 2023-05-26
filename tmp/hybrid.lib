@@ -1,0 +1,38 @@
+{HYB}
+
+[atoms]
+ 1   C1    hyb.C1    -0.240000
+ 2  H11    hyb.H11    0.060000
+ 3  H12    hyb.H12    0.060000
+ 4  H13    hyb.H13    0.060000
+ 5  H14    hyb.H14    0.060000
+ 6   c2    hyb.c2    -0.050000
+
+[bonds]
+   C1   H11
+   C1   H12
+   C1   H13
+   C1   H14
+   c1   h13
+   c2    c3
+   c2   h21
+   c2   h22
+   c3   h31
+   c3   h32
+   c3    n4
+   c5    n4
+   c5   n61
+   c5   n62
+   h4    n4
+ h611   n61
+ h612   n61
+ h621   n62
+ h622   n62
+
+[impropers]
+   c3    n4    c5    h4
+   c5   n61  h611  h612
+   c5   n62  h621  h622
+   n4    c5   n61   n62
+
+[charge_groups]

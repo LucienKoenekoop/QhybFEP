@@ -1,0 +1,33 @@
+# Generated with q_ffld2q.py, version 0.7.1
+# Date: Fri Mar  4 14:58:05 2022
+#
+[options]
+
+
+[atom_types]
+meh.C1          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
+meh.H11         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+meh.H12         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+meh.H13         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+meh.H14         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+
+[bonds]
+meh.C1       meh.H11           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+meh.C1       meh.H12           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+meh.C1       meh.H13           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+meh.C1       meh.H14           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+
+[angles]
+meh.H11      meh.C1       meh.H12            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+meh.H11      meh.C1       meh.H13            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+meh.H11      meh.C1       meh.H14            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+meh.H12      meh.C1       meh.H13            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+meh.H12      meh.C1       meh.H14            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+meh.H13      meh.C1       meh.H14            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+
+[torsions]
+
+
+[impropers]
+
+

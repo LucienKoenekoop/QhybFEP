@@ -1,0 +1,127 @@
+# Generated with q_ffld2q.py, version 0.7.1
+# Date: Tue Mar  1 10:55:48 2022
+#
+[options]
+
+
+[atom_types]
+npg.C1          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
+npg.C2          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_135 C: alkanes
+npg.C3          944.518    944.518    22.0296   667.8751    15.5773     12.011 # FFLD: CT_C1_307 C: C(D), ARG, ethylguanidinium
+npg.C5          58.0243    58.0243      5.094    41.0294      3.602     12.011 # FFLD: CG_C12_8742 amidinium
+npg.H11         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+npg.H12         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+npg.H13         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+npg.H21         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+npg.H22         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H: alkanes
+npg.H31         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H(C)-N in amines, diamines
+npg.H32         84.5728    84.5728     5.4127     59.802     3.8274     1.0079 # FFLD: HC_H1_140 H(C)-N in amines, diamines
+npg.H4           0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H: guanidinium HN
+npg.H611         0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H: guanidinium HN
+npg.H612         0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H: guanidinium HN
+npg.H621         0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H: guanidinium HN
+npg.H622         0.0054     0.0054     0.0433     0.0038     0.0306     1.0079 # FFLD: H_H8_240 H: guanidinium HN
+npg.N4         971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: NG_N1_8001 amidinium
+npg.N61        971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: NG_N1_8003 amidinium
+npg.N62        971.7502   971.7502    28.3077   687.1312    20.0166     14.007 # FFLD: NG_N1_8003 amidinium
+
+[bonds]
+npg.C1       npg.C2            536.0      1.529 # FFLD: high 0 => 0 CT-CT ==> CT-CT
+npg.C1       npg.H11           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+npg.C1       npg.H12           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+npg.C1       npg.H13           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+npg.C2       npg.C3            536.0      1.529 # FFLD: high 0 => 0 CT-CT ==> CT-CT
+npg.C2       npg.H21           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+npg.C2       npg.H22           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+npg.C3       npg.H31           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+npg.C3       npg.H32           680.0       1.09 # FFLD: high 0 => 0 CT-HC ==> HC-CT
+npg.C3       npg.N4            674.0      1.463 # FFLD: high 0 => 0 CT-NG ==> NG-CT
+npg.C5       npg.N4            962.0       1.34 # FFLD: high 0 => 0 NG-CG ==> NG-CG
+npg.C5       npg.N61           962.0       1.34 # FFLD: high 0 => 0 CG-NG ==> NG-CG
+npg.C5       npg.N62           962.0       1.34 # FFLD: high 0 => 0 CG-NG ==> NG-CG
+npg.H4       npg.N4            868.0       1.01 # FFLD: high 0 => 0 NG-H ==> NG-H
+npg.H611     npg.N61           868.0       1.01 # FFLD: high 0 => 0 NG-H ==> NG-H
+npg.H612     npg.N61           868.0       1.01 # FFLD: high 0 => 0 NG-H ==> NG-H
+npg.H621     npg.N62           868.0       1.01 # FFLD: high 0 => 0 NG-H ==> NG-H
+npg.H622     npg.N62           868.0       1.01 # FFLD: high 0 => 0 NG-H ==> NG-H
+
+[angles]
+npg.C1       npg.C2       npg.C3            116.7      112.7 # FFLD: high 0 CT-CT-CT ==> CT-CT-CT
+npg.C1       npg.C2       npg.H21            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+npg.C1       npg.C2       npg.H22            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+npg.C2       npg.C1       npg.H11            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+npg.C2       npg.C1       npg.H12            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+npg.C2       npg.C1       npg.H13            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+npg.C2       npg.C3       npg.H31            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+npg.C2       npg.C3       npg.H32            75.0      110.7 # FFLD: high 0 CT-CT-HC ==> HC-CT-CT
+npg.C2       npg.C3       npg.N4            160.0      111.2 # FFLD: high 0 CT-CT-NG ==> NG-CT-CT
+npg.C3       npg.C2       npg.H21            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+npg.C3       npg.C2       npg.H22            75.0      110.7 # FFLD: high 0 HC-CT-CT ==> HC-CT-CT
+npg.C3       npg.N4       npg.C5            100.0      123.2 # FFLD: high 0 CT-NG-CG ==> CT-NG-CG
+npg.C3       npg.N4       npg.H4             70.0      118.4 # FFLD: high 0 CT-NG-H ==> H-NG-CT
+npg.C5       npg.N4       npg.H4             70.0      120.0 # FFLD: high 0 H-NG-CG ==> H-NG-CG
+npg.C5       npg.N61      npg.H611           70.0      120.0 # FFLD: high 0 CG-NG-H ==> H-NG-CG
+npg.C5       npg.N61      npg.H612           70.0      120.0 # FFLD: high 0 CG-NG-H ==> H-NG-CG
+npg.C5       npg.N62      npg.H621           70.0      120.0 # FFLD: high 0 CG-NG-H ==> H-NG-CG
+npg.C5       npg.N62      npg.H622           70.0      120.0 # FFLD: high 0 CG-NG-H ==> H-NG-CG
+npg.H11      npg.C1       npg.H12            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+npg.H11      npg.C1       npg.H13            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+npg.H12      npg.C1       npg.H13            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+npg.H21      npg.C2       npg.H22            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+npg.H31      npg.C3       npg.H32            66.0      107.8 # FFLD: high 0 HC-CT-HC ==> HC-CT-HC
+npg.H31      npg.C3       npg.N4             70.0      109.5 # FFLD: high 0 HC-CT-NG ==> NG-CT-HC
+npg.H32      npg.C3       npg.N4             70.0      109.5 # FFLD: high 0 HC-CT-NG ==> NG-CT-HC
+npg.H611     npg.N61      npg.H612           70.0      120.0 # FFLD: high 0 H-NG-H ==> H-NG-H
+npg.H621     npg.N62      npg.H622           70.0      120.0 # FFLD: high 0 H-NG-H ==> H-NG-H
+npg.N4       npg.C5       npg.N61           140.0      120.0 # FFLD: high 0 NG-CG-NG ==> NG-CG-NG
+npg.N4       npg.C5       npg.N62           140.0      120.0 # FFLD: high 0 NG-CG-NG ==> NG-CG-NG
+npg.N61      npg.C5       npg.N62           140.0      120.0 # FFLD: high 0 NG-CG-NG ==> NG-CG-NG
+
+[torsions]
+npg.C1       npg.C2       npg.C3       npg.H31            0.15   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-HC ==> HC-CT-CT-CT
+npg.C1       npg.C2       npg.C3       npg.H32            0.15   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-HC ==> HC-CT-CT-CT
+npg.C1       npg.C2       npg.C3       npg.N4           1.3455   1.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-NG ==> NG-CT-CT-CT
+npg.C1       npg.C2       npg.C3       npg.N4          -0.3105   2.0      180.0   1.0 # FFLD: high 0 CT-CT-CT-NG ==> NG-CT-CT-CT
+npg.C1       npg.C2       npg.C3       npg.N4            0.955   3.0        0.0   1.0 # FFLD: high 0 CT-CT-CT-NG ==> NG-CT-CT-CT
+npg.C2       npg.C3       npg.N4       npg.C5           0.2555   2.0      180.0   1.0 # FFLD: high 0 CT-CT-NG-CG ==> CG-NG-CT-CT
+npg.C2       npg.C3       npg.N4       npg.H4           -0.095   1.0        0.0   1.0 # FFLD: high 0 CT-CT-NG-H ==> H-NG-CT-CT
+npg.C2       npg.C3       npg.N4       npg.H4          -0.2085   2.0      180.0   1.0 # FFLD: high 0 CT-CT-NG-H ==> H-NG-CT-CT
+npg.C2       npg.C3       npg.N4       npg.H4            0.209   3.0        0.0   1.0 # FFLD: high 0 CT-CT-NG-H ==> H-NG-CT-CT
+npg.C3       npg.C2       npg.C1       npg.H11            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CT ==> HC-CT-CT-CT
+npg.C3       npg.C2       npg.C1       npg.H12            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CT ==> HC-CT-CT-CT
+npg.C3       npg.C2       npg.C1       npg.H13            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-CT ==> HC-CT-CT-CT
+npg.C3       npg.N4       npg.C5       npg.N61           3.968   2.0      180.0   1.0 # FFLD: high 0 CT-NG-CG-NG ==> CT-NG-CG-NG
+npg.C3       npg.N4       npg.C5       npg.N62           3.968   2.0      180.0   1.0 # FFLD: high 0 CT-NG-CG-NG ==> CT-NG-CG-NG
+npg.C5       npg.N4       npg.C3       npg.H31          0.0885   3.0        0.0   1.0 # FFLD: high 0 HC-CT-NG-CG ==> CG-NG-CT-HC
+npg.C5       npg.N4       npg.C3       npg.H32          0.0885   3.0        0.0   1.0 # FFLD: high 0 HC-CT-NG-CG ==> CG-NG-CT-HC
+npg.H11      npg.C1       npg.C2       npg.H21            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H11      npg.C1       npg.C2       npg.H22            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H12      npg.C1       npg.C2       npg.H21            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H12      npg.C1       npg.C2       npg.H22            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H13      npg.C1       npg.C2       npg.H21            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H13      npg.C1       npg.C2       npg.H22            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H21      npg.C2       npg.C3       npg.H31            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H21      npg.C2       npg.C3       npg.H32            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H21      npg.C2       npg.C3       npg.N4           -0.291   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-NG ==> NG-CT-CT-HC
+npg.H22      npg.C2       npg.C3       npg.H31            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H22      npg.C2       npg.C3       npg.H32            0.15   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-HC ==> HC-CT-CT-HC
+npg.H22      npg.C2       npg.C3       npg.N4           -0.291   3.0        0.0   1.0 # FFLD: high 0 HC-CT-CT-NG ==> NG-CT-CT-HC
+npg.H31      npg.C3       npg.N4       npg.H4              0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-NG-H ==> H-NG-CT-HC
+npg.H32      npg.C3       npg.N4       npg.H4              0.0   1.0        0.0   1.0 # FFLD: high 0 HC-CT-NG-H ==> H-NG-CT-HC
+npg.H4       npg.N4       npg.C5       npg.N61             1.5   2.0      180.0   1.0 # FFLD: high 0 H-NG-CG-NG ==> H-NG-CG-??
+npg.H4       npg.N4       npg.C5       npg.N62             1.5   2.0      180.0   1.0 # FFLD: high 0 H-NG-CG-NG ==> H-NG-CG-??
+npg.H611     npg.N61      npg.C5       npg.N4              1.5   2.0      180.0   1.0 # FFLD: high 0 NG-CG-NG-H ==> H-NG-CG-??
+npg.H611     npg.N61      npg.C5       npg.N62             1.5   2.0      180.0   1.0 # FFLD: high 0 NG-CG-NG-H ==> H-NG-CG-??
+npg.H612     npg.N61      npg.C5       npg.N4              1.5   2.0      180.0   1.0 # FFLD: high 0 NG-CG-NG-H ==> H-NG-CG-??
+npg.H612     npg.N61      npg.C5       npg.N62             1.5   2.0      180.0   1.0 # FFLD: high 0 NG-CG-NG-H ==> H-NG-CG-??
+npg.H621     npg.N62      npg.C5       npg.N4              1.5   2.0      180.0   1.0 # FFLD: high 0 NG-CG-NG-H ==> H-NG-CG-??
+npg.H621     npg.N62      npg.C5       npg.N61             1.5   2.0      180.0   1.0 # FFLD: high 0 NG-CG-NG-H ==> H-NG-CG-??
+npg.H622     npg.N62      npg.C5       npg.N4              1.5   2.0      180.0   1.0 # FFLD: high 0 NG-CG-NG-H ==> H-NG-CG-??
+npg.H622     npg.N62      npg.C5       npg.N61             1.5   2.0      180.0   1.0 # FFLD: high 0 NG-CG-NG-H ==> H-NG-CG-??
+
+[impropers]
+npg.C3       npg.N4       npg.C5       npg.H4              1.0      180.0 # FFLD: high amidine-, guanidinium
+npg.C5       npg.N61      npg.H611     npg.H612            1.0      180.0 # FFLD: high amide, amidine-,guanidinium
+npg.C5       npg.N62      npg.H621     npg.H622            1.0      180.0 # FFLD: high amide, amidine-,guanidinium
+npg.N4       npg.C5       npg.N61      npg.N62            10.5      180.0 # FFLD: high trigonal carbon in ami-,guani-dinium
+
