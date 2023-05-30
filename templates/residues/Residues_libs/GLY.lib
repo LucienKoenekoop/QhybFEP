@@ -1,0 +1,28 @@
+{GLY}                 !Glycine
+    [info]
+        SYBYLtype  RESIDUE
+    [atoms]
+         1 N       N          -0.5000
+         2 H       H           0.3000
+         3 CA      CT          0.0800 
+         4 HA2     HC          0.0600
+         5 HA3     HC          0.0600
+         6 C       C           0.5000
+         7 O       O          -0.5000
+    [bonds]
+       N    H  
+       N    CA 
+       CA   HA2
+       CA   HA3
+       CA   C  
+       C    O  
+    [connections]
+        head     N  
+        tail     C  
+    [impropers]
+        H    N    -C    CA
+        O    C    CA    +N
+    [charge_groups]
+        N    H    CA   HA2   HA3
+        C    O
+*----------------------------------------------------------------------

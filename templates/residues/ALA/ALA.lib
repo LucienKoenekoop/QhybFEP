@@ -1,0 +1,35 @@
+{ALA}                 ! Alanine
+    [info]
+        SYBYLtype  RESIDUE     !SYBYL substructure type
+    [atoms]		!At. no., name, type, charge
+         1 N       N          -0.5000 
+         2 H       H           0.3000
+         3 CA      CT          0.1400
+         4 HA      HC          0.0600
+         5 CB      CT         -0.1800
+         6 HB1     HC          0.0600
+         7 HB2     HC          0.0600
+         8 HB3     HC          0.0600
+         9 C       C           0.5000
+        10 O       O          -0.5000
+    [bonds]                !connect i -- j
+       N    H  
+       N    CA
+       CA   HA 
+       CA   CB 
+       CB   HB1
+       CB   HB2
+       CB   HB3
+       CA   C  
+       C    O  
+    [connections]   !tail and head connections
+        head     N  
+        tail     C  
+    [impropers]
+        H    N    -C    CA
+        O    C    CA    +N
+    [charge_groups] !charge groups, with switch atom first
+        N    H    CA    HA   
+        CB   HB1  HB2   HB3
+        C    O
+*----------------------------------------------------------------------
