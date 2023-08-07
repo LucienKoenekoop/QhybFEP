@@ -1,0 +1,51 @@
+{MET}                 !Methionine
+    [info]
+        SYBYLtype  GROUP
+    [atoms]
+         1 N       N          -0.5000
+         2 CA      CT          0.1400
+         3 C       C           0.5000
+         4 O       O          -0.5000
+         5 CB      CT         -0.1200
+         6 CG      CT          0.0975
+         7 SD      S          -0.4350 
+         8 CE      CT          0.0375
+         9 H       H           0.3000
+        10 HA      HC          0.0600
+        11 HB2     HC          0.0600
+        12 HB3     HC          0.0600
+        13 HG2     HC          0.0600
+        14 HG3     HC          0.0600
+        15 HE1     HC          0.0600
+        16 HE2     HC          0.0600
+        17 HE3     HC          0.0600
+        
+    [bonds]
+       N    H  
+       N    CA 
+       CA   HA 
+       CA   CB 
+       CB   HB2
+       CB   HB3
+       CB   CG 
+       CG   HG2
+       CG   HG3
+       CG   SD 
+       SD   CE 
+       CE   HE1
+       CE   HE2
+       CE   HE3
+       CA   C  
+       C    O  
+    [connections]
+        head     N  
+        tail      C  
+    [impropers]
+        H    N    -C    CA
+        O    C    CA    +N
+    [charge_groups]
+        N    H    CA   HA   
+        CB   HB2  HB3
+        SD   CG   HG2  HG3  CE   HE1  HE2  HE3
+        C    O
+*----------------------------------------------------------------------

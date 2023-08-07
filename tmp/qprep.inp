@@ -1,0 +1,15 @@
+rl tmp/hybrid.lib
+rl templates/Qoplsaa.lib
+rprm tmp/hybrid.prm
+rp tmp/protein_hybrid.pdb
+boundary 1 33.963 31.279 29.674 25
+solvate 33.963 31.279 29.674 25 1 HOH
+! addbond at1 at2
+maketop hybrid_top
+writetop tmp/hybrid_top.top
+wp tmp/hybrid_top.pdb y
+rt tmp/hybrid_top.top
+mask none
+mask not excluded
+wp tmp/not_excluded.pdb y
+q
