@@ -3,29 +3,30 @@
         SYBYLtype  RESIDUE
     [atoms]
          1 N       N          -0.5000   
-         2 H       H           0.3000
-         3 CA      CT          0.1400
-         4 HA      HC          0.0600
+         2 CA      CT          0.1400
+         3 C       C           0.5000
+         4 O       O          -0.5000
          5 CB      CT         -0.1200
-         6 HB2     HC          0.0600
-         7 HB3     HC          0.0600
-         8 CG      Cstar       0.0750
-         9 CD1     CW         -0.1150
-        10 HD1     HA          0.1150
-        11 NE1     NA         -0.5700
-        12 HE1     H           0.4200
-        13 CE2     CN          0.1300
-        14 CZ2     CA         -0.1150
-        15 HZ2     HA          0.1150
-        16 CH2     CA         -0.1150
-        17 HH2     HA          0.1150
-        18 CZ3     CA         -0.1150
-        19 HZ3     HA          0.1150
-        20 CE3     CA         -0.1150
+         6 CG      Cstar       0.0750
+         7 CD1     CW         -0.1150
+         8 CD2     CB         -0.0550
+         9 NE1     NA         -0.5700
+        10 CE2     CN          0.1300
+        11 CE3     CA         -0.1150
+        12 CZ2     CA         -0.1150
+        13 CZ3     CA         -0.1150
+        14 CH2     CA         -0.1150
+        15 H       H           0.3000 
+        16 HA      HC          0.0600
+        17 HB2     HC          0.0600
+        18 HB3     HC          0.0600
+        19 HD1     HA          0.1150
+        20 HE1     H           0.4200
         21 HE3     HA          0.1150
-        22 CD2     CB         -0.0550
-        23 C       C           0.5000
-        24 O       O          -0.5000
+        22 HZ2     HA          0.1150
+        23 HZ3     HA          0.1150
+        24 HH2     HA          0.1150
+        
     [bonds]
        N    H  
        N    CA 

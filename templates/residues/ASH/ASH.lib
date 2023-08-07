@@ -3,18 +3,19 @@
         SYBYLtype  RESIDUE
     [atoms]
          1 N       N          -0.5000
-         2 H       H           0.3000
-         3 CA      CT          0.1400
-         4 HA      HC          0.0600
+         2 CA      CT          0.1400
+         3 C       C           0.5000
+         4 O       O          -0.5000
          5 CB      CT         -0.1200
-         6 HB2     HC          0.0600
-         7 HB3     HC          0.0600
-         8 CG      C2          0.5200
-         9 OD1     OH         -0.5300
-        10 OD2     O1         -0.4400
-        11 HD1     HO          0.4500
-        12 C       C           0.5000
-        13 O       O          -0.5000
+         6 CG      C2          0.5200
+         7 OD1     OH         -0.5300
+         8 OD2     O1         -0.4400
+         9 H       H           0.3000
+        10 HA      HC          0.0600
+        11 HB2     HC          0.0600
+        12 HB3     HC          0.0600
+        13 HD1     HO          0.4500
+
     [bonds]
        N    H  
        N    CA 

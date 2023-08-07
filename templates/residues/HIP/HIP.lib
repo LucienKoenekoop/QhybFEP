@@ -3,23 +3,24 @@
         SYBYLtype  RESIDUE
     [atoms]
          1 N       N          -0.5000
-         2 H       H           0.3000
-         3 CA      CT          0.1400
-         4 HA      HC          0.0600
+         2 CA      CT          0.1400
+         3 C       C           0.5000
+         4 O       O          -0.5000
          5 CB      CT         -0.0050
-         6 HB2     HC          0.0600
-         7 HB3     HC          0.0600
-         8 CG      CX          0.2150
-         9 ND1     NA         -0.5400
-        10 HD1     H           0.4600
-        11 CE1     CR          0.3850
-        12 HE1     HA          0.1150
-        13 NE2     NA         -0.5400
-        14 HE2     H           0.4600
-        15 CD2     CX          0.2150
+         6 CG      CX          0.2150
+         7 ND1     NA         -0.5400
+         8 CD2     CX          0.2150
+         9 CE1     CR          0.3850
+        10 NE2     NA         -0.5400
+        11 H       H           0.3000
+        12 HA      HC          0.0600
+        13 HB2     HC          0.0600
+        14 HB3     HC          0.0600
+        15 HD1     H           0.4600
         16 HD2     HA          0.1150
-        17 C       C           0.5000
-        18 O       O          -0.5000
+        17 HE1     HA          0.1150
+        18 HE2     H           0.4600
+        
     [bonds]
        N    H  
        N    CA 
